@@ -1,0 +1,113 @@
+#titlebar
+{
+    background-color:#4f524c;
+    color:#ffffff;  
+}
+
+.mobile-header
+{
+    background:#70a33c;
+    color:#ffffff;
+}
+
+.toolbar 
+{
+    background-color: #4f524c;   
+    background-image: none !important;
+    border-bottom: 1px solid #4f524c;     
+}
+#titlebar .nav a
+{
+    color:#ffffff;  
+}
+#titlebar .nav a:hover
+{
+    color:;   
+}
+
+.admin-toolbar-bg, .super-nav-bg
+{
+    background-color: #70a33c;
+    color:#ffffff;
+}
+.account-nav ul li a,.account-nav ul li a:visited,.account-nav ul li a:link
+{
+    color:#ffffff;
+}
+/*
+table.grid thead
+{
+    background: #70a33c  !important;
+    color:#ffffff  !important;
+}
+*/
+
+.tabsbar {
+    background: #70a33c  !important;
+}
+.tabsbar h3{
+    color:#ffffff  !important;
+}
+
+ul.tabs li a:hover 
+{
+    background:   !important;
+    /*color:   !important;*/
+}
+
+ul.tabs li a:hover span
+{
+    color:   !important;
+}
+
+body 
+{ 
+    font-family: Verdana;  
+    /*background-color:   !important;*/
+}
+
+ul.tabs {
+    background-color: #70a33c  !important;
+}
+
+.body_heading h3
+{
+    background: #70a33c;
+    color:#ffffff;
+}
+
+.focus-panel .search, .focus-panel .panel-head
+{
+    background-color:#70a33c !important;   
+}
+
+.focus-panel h3
+{
+    background-color: #70a33c;
+    color:#ffffff;
+}
+
+.focus-panel div.subtitle a, .focus-panel div.subtitle a:link, .focus-panel div.subtitle a:visited,.panel-head h3 a:visited, .panel-head h3 a:link
+{
+    color:#ffffff;    
+}
+
+.focus-panel div.subtitle
+{
+    background-color: #70a33c;
+    color:#ffffff;
+}
+
+.rightPanel h3
+{
+    background-color: #70a33c;
+    color:#ffffff;
+    
+}
+
+.logoBg
+{
+    background-color:   !important;
+}
+
+  

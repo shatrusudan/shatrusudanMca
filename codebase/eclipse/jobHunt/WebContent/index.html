@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/grid.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+<script type="text/javascript" src="js/jquery.anythingslider.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.2.js"></script>
+<script type="text/javascript">
+    
+	function formatText(index, panel) {
+		return index + "";
+		}
+	
+			$(function () {
+			
+				$('.anythingSlider').anythingSlider({
+					easing: "easeInOutExpo",        // Anything other than "linear" or "swing" requires the easing plugin
+					autoPlay: true,                 // This turns off the entire FUNCTIONALY, not just if it starts running or not.
+					delay: 3000,                    // How long between slide transitions in AutoPlay mode
+					startStopped: false,            // If autoPlay is on, this can force it to start stopped
+					animationTime: 600,             // How long the slide transition takes
+					hashTags: true,                 // Should links change the hashtag in the URL?
+					buildNavigation: true,          // If true, builds and list of anchor links to link to each slide
+					pauseOnHover: true,             // If true, and autoPlay is enabled, the show will pause on hover
+					startText: "Play",             // Start text
+					stopText: "Stop"               // Stop text
+				});
+			});
+</script>
+
+</head>
+<body>
+<div id="main">
+  <!-- header -->
+   <header>
+    <div class="logo">
+      <div ><img src="images/final logo.jpg"></div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="current">Home Page</a></li>
+        <li><a href="jspPages/searchjob.jsp">Search Job</a></li>
+        <li><a href="jspPages/register.jsp">Submit Resume</a></li>
+        <li><a href="jspPages/services.jsp">Service</a></li>
+        <li><a href="jspPages/aboutus.jsp">About Us</a></li>
+        <li><a href="jspPages/contacts.jsp">Contacts</a></li>
+      </ul>
+    </nav> 
+  </header>
+  
+  <div ><marquee > <img src="images/company name/cognizant28june.gif"><img src="images/company name/hexaware-135x35-201211-1.gif"><img src="images/company name/ibm_panel_092011.gif"><img src="images/company name/infojan10new.gif"><img src="images/company name/lninfotech14_122011.gif"><img src="images/company name/mahindra6sep.gif"><img src="images/company name/mcafee135x35-5apr11.gif"><img src="images/company name/mphasis-135x35-081111.gif"><img src="images/company name/hcl_new.gif"></marquee></div>
+	
+  <section id="main-banner">
+    
+    <div class="anythingSlider">
+      <div class="wrapper">
+        <ul>
+          <li><img src="images/slide1.jpeg" alt=""></li>
+          <li><img src="images/slide2.jpeg" alt=""></li>
+          <li><img src="images/slide3.jpeg" alt=""></li>
+          <li><img src="images/slide4.png" alt=""></li>
+          <li><img src="images/slide5.png" alt=""></li>
+        </ul>
+      </div>
+    </div>
+	<div class="intro" >
+	<div align="center" style="width:250px; height:40px;"><span >Sign Up Here</span><hr></div>
+        <form action="actions/login" method="post">
+	  <table height="96" >
+        
+        <tr>
+          <td>Login Id</td>
+          <td><input type="text" name="loginid"></td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><div align="center">
+              <input type="submit" name="submit" value="Log In">
+          </div></td>
+        </tr>
+        
+      </table>
+	  </form>
+	   <div align="right">
+	     <p>&nbsp;</p>
+	    <a href="jspPages/register.jsp">New User sign up</a>
+	   </div>
+	</div>
+  </section>
+  <aside class="top">
+    <div class="container_12">
+      <div class="wrapper">
+        <div class="grid_4 divider">
+          <div class="inner">
+            <h3><img src="images/icon1.png" alt="">Our advantages<span></span></h3>
+            At JobHunt our goal is to help by connecting you to the real world opportunities that can help you achieve your goals and realize your dreams. <a href="#" class="link1">More Info</a>
+          </div>
+        </div>
+        <div class="grid_4 divider">
+          <div class="inner">
+            <h3><img src="images/icon2.png" alt="">why choose us<span></span></h3>
+            Whether you're thinking about a new job, new career, a new city or a new direction... JobHunt helps you find the opportunities that are right for you. <a href="#" class="link1">More Info</a>
+          </div>
+        </div>
+        <div class="grid_4">
+          <div class="inner">
+            <h3><img src="images/icon3.png" alt="">Special Offer<span></span></h3>
+            Registration is FREE. Registered user get Email and messege alert on your number. Special hiring for registered user. <a href="#" class="link1">More Info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="wrapper">
+    <!-- content -->
+    <section id="content">
+    	<div class="container_12">
+        <div class="wrapper">
+        	<aside class="grid_4">
+        		<div class="box">
+            	<h2>Browse by category:</h2>
+              <ul class="list1">
+              	<li><a href="#">Account,Finance,Tax</a></li>
+                <li><a href="#">Banking,Insurance</a></li>
+                <li><a href="#">ITES,BPO,KPO,HR</a></li>
+                <li><a href="#">Marketing,Advertising</a></li>
+                <li><a href="#">Engineering Design,Sales</a></li>
+                <li><a href="#">IT-Software & Hardware</a></li>
+                <li><a href="#">Architeture, Interior Design</a></li>
+                <li><a href="#">Hotel,Restaurants</a></li>
+                <li><a href="#">Journalism</a></li>
+                <li><a href="#">Consulting</a></li>
+              </ul>
+              <div class="extra-links">
+              	<a href="#">Read more</a> &nbsp;| &nbsp;<a href="#">Get rss feeds</a>
+              </div>
+            </div>
+          </aside>
+          <div class="grid_8">
+            <div class="indent">
+              <div>
+			  <table>
+			  <tr><h2>Best Place to Work</h2></tr>
+			  <tr><td><h4>All Sectors |</h4></td>
+			  <td><h4>Information Technology |</h4></td>
+			  <td><h4>Manufacturing |</h4></td>
+			  <td><h4>Services</h4></td></tr>
+			  </table><hr>
+			  <table><td>
+			  <ul><li><h5>ChipDsg/Semicond.</h5><hr></li>
+			  <li>ST ERICSSON</li>
+			  <li>AppliedMicro</li>
+			  <li>Broadcom</li>
+			  <li>Intel</li>
+			  <li>LSI</li>
+			  <li>NVIDIA</li>
+			  <li>PathPartner Technology</li>
+			  <li>QUALCOMM</li>
+			  <li>Rambus</li>
+			  <li>SanDisk</li>
+			  </ul></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			  <td>
+			  <ul><li><h5>ITES/BPO/.COM</h5><hr></li>
+			  <li>Hutchison Global Services</li>
+			  <li>Caliber Point Business Solutions</li>
+			  <li>Encore Capital Group</li>
+			  <li>Ienergizer</li>
+			  <li>Respondez (A SPANCO company)</li>
+			  <li>Shell Business Service</li>
+			  <li>SourceHOV</li>
+			  <li>EMERSON INNOVATION CENTER</li>
+			  <li>Kennametal India Ltd</li>
+			  <li>TIBCO Software</li>
+			  </ul></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			  <td>
+			  <ul><li><h5>Telecom/ Internet.</h5><hr></li>
+			  <li>Alcatel-Lucent</li>
+			  <li>ARICENT</li>
+			  <li>Ciena</li>
+			  <li>Cisco Systems</li>
+			  <li>Excelacom Technologies</li>
+			  <li>LG Soft India</li>
+			  <li>Motorola Mobility India</li>
+			  <li>Reliance Communications</li>
+			  <li>Sandvine</li>
+			  <li>Valmont Industries</li>
+			  </ul></td>
+			  </table>
+			  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+   <footer>
+  	<nav>
+  	  <ul>
+      	<li><a href="index.html" class="current">Home Page</a></li>
+        <li><a href="index-1.html">About Us</a></li>
+        <li><a href="index-2.html">Solutions</a></li>
+        <li><a href="index-3.html">Partners</a></li>
+        <li><a href="index-4.html">Clients</a></li>
+        <li><a href="index-5.html">Contacts</a></li>
+      </ul>
+  	</nav>
+    Consultex  &copy; 2010 &bull; <a href="index-6.html">Privacy Policy</a>
+  </footer>
+</div>
+</body>
+</html>
